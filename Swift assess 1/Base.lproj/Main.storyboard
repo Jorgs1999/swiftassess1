@@ -36,10 +36,15 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G8a-N9-rz8">
+                                <state key="normal" title="Counting Button"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="G8a-N9-rz8" firstAttribute="top" secondItem="ZRd-AU-dy4" secondAttribute="bottom" constant="100" id="2r1-4o-ahc"/>
                             <constraint firstItem="hNO-Uj-ILR" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="80" id="2ul-bd-Wr2"/>
+                            <constraint firstItem="G8a-N9-rz8" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="iht-EE-F5c"/>
                             <constraint firstItem="ZRd-AU-dy4" firstAttribute="top" secondItem="hNO-Uj-ILR" secondAttribute="bottom" constant="50" id="lfq-sT-ohC"/>
                             <constraint firstItem="ZRd-AU-dy4" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="pnu-iM-xlU"/>
                             <constraint firstItem="hNO-Uj-ILR" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="sVL-B2-43p"/>
