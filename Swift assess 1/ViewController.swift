@@ -26,6 +26,7 @@ class ViewController: UIViewController {
         if clickCount == 15{
             self.view.backgroundColor = UIColor.yellow
         }
+        print(clickCount+1)
     }
     
     
