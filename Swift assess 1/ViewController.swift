@@ -12,6 +12,21 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var myLabel2: UILabel!
     
+    var clickCount = 0
+    
+    @IBAction func clickButton(_ sender: AnyObject) {
+        
+        clickCount = clickCount+1
+        
+        
+        if clickCount == 10{
+            self.view.backgroundColor = UIColor.gray
+            
+        }
+        if clickCount == 15{
+            self.view.backgroundColor = UIColor.yellow
+        }
+    }
     
     
     
